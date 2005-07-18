@@ -6,7 +6,7 @@
 // Version 0.2 - Released 18 July 2005 - Added beginDraw/endDraw, 
 //                                       Changed vsprintf to vsnprintf
 //
-// $Id: GLFT_Font.hpp,v 1.1 2005/07/18 22:19:16 cozman Exp $
+// $Id: GLFT_Font.hpp,v 1.1.1.1 2005/07/18 22:19:16 cozman Exp $
 //
 // Copyright (c) 2005, James Turk
 // All rights reserved.

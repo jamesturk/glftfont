@@ -2,7 +2,7 @@
 // Compiled with g++ GLFT_Font.cpp test.cpp -o test -Wall -pedantic 
 //                     -lglfw -lGL -lfreetype
 //
-// $Id: test.cpp,v 1.1 2005/07/18 22:19:16 cozman Exp $
+// $Id: test.cpp,v 1.1.1.1 2005/07/18 22:19:16 cozman Exp $
 
 #include <GL/glfw.h>
 #include "GLFT_Font.hpp"
