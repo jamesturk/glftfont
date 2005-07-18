@@ -1,0 +1,55 @@
+<html>
+<head><title>GLFT_Font</title></head>
+<body>
+<h1>GLFT_Font</h1>
+
+<h2>About GLFT_Font</h2>
+<p>
+GLFT_Font is originally by <a href="mailto:jpt2433@rit.edu">James Turk</a> 
+although it is based on the work of 
+<a href="http://marijn.haverbeke.nl">Marijn Haverbeke</a>.  GLFT_Font allows 
+programmers to use fonts in their OpenGL applications with great ease on any 
+platform for which both <a href="http://freetype.org">FreeType2</a> and 
+<a href="http://opengl.org">OpenGL</a> are available.  
+</p>
+
+<h2>Obtaining GLFT_Font</h2>
+<p>
+The latest copy of GLFT_Font will be available via this website.
+At the moment the latest version is <a href="glftfont-0.1.tar.gz">0.1</a>.
+</p>
+
+<h2>Using GLFT_Font</h2>
+<p>
+Using GLFT_Font is designed to be extremely simple.  The simplest use is:
+<hr />
+<pre>
+#include "GLFT_Font.h"
+
+...
+glEnable(GL_TEXTURE_2D);
+glEnable(GL_BLEND);
+glBlendFunc(GL_SRC_ALPHA,GL_ONE_MINUS_SRC_ALPHA);
+...
+Font fnt("somefont.ttf", size);  
+...
+fnt.drawText(x, y, "Hello World");
+</pre>
+<hr />
+GLFT_Font also includes support for finding the width/height of a string and
+drawText supports printf-style argument formatting.
+</p>
+
+<h2>Changelog</h2>
+<p>
+<ul>
+<li> <a href="glftfont-0.1.tar.gz">Version 0.1</a> - 1 July 2005 - Initial Release </li>
+</ul>
+</p>
+
+<hr />
+<p><em>$Id: index.html,v 1.1 2005/07/18 22:19:16 cozman Exp $</em></p>
+
+
+</body>
+</html>
