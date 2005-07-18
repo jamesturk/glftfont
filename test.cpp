@@ -1,8 +1,8 @@
 // This file is distributed along with GLFT_Font and is in the public domain.
 // Compiled with g++ GLFT_Font.cpp test.cpp -o test -Wall -pedantic 
-//                     -lglfw -lGL -lfreetype
+//                     -lglfw -lGL -lfreetype `freetype-config --cflags`
 //
-// $Id: test.cpp,v 1.1 2005/07/18 22:19:16 cozman Exp $
+// $Id: test.cpp,v 1.2 2005/07/18 22:28:27 cozman Exp $
 
 #include <GL/glfw.h>
 #include "GLFT_Font.hpp"
