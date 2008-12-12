@@ -1,14 +1,13 @@
-// GLFT_Font (http://www.cs.rit.edu/~jpt2433/glftfont/)
-//  by James Turk (jpt2433@rit.edu)
+// GLFT_Font (http://polimath.com/blog/code/glft_font/)
+//  by James Turk (james.p.turk@gmail.com)
 //  Based on work by Marijn Haverbeke (http://marijn.haverbeke.nl)
 //
-// Version 0.1 - Released  1 July 2005 - Initial Release
-// Version 0.2 - Released 18 July 2005 - Added beginDraw/endDraw, 
+// Version 0.2.1 - Released 2 March 2008 - Updated contact information.
+// Version 0.2.0 - Released 18 July 2005 - Added beginDraw/endDraw, 
 //                                       Changed vsprintf to vsnprintf
+// Version 0.1.0 - Released  1 July 2005 - Initial Release
 //
-// $Id: GLFT_Font.hpp,v 1.1 2005/07/18 22:19:16 cozman Exp $
-//
-// Copyright (c) 2005, James Turk
+// Copyright (c) 2005-2008, James Turk
 // All rights reserved.
 // 
 // Redistribution and use in source and binary forms, with or without 
