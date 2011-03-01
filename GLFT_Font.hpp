@@ -2,6 +2,7 @@
 //  by James Turk (james.p.turk@gmail.com)
 //  Based on work by Marijn Haverbeke (http://marijn.haverbeke.nl)
 //
+// Version 0.2.2 - Released 28 February 2011 - Fixed linux compilation.
 // Version 0.2.1 - Released 2 March 2008 - Updated contact information.
 // Version 0.2.0 - Released 18 July 2005 - Added beginDraw/endDraw, 
 //                                       Changed vsprintf to vsnprintf
