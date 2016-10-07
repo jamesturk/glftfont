@@ -146,8 +146,8 @@ void GLFT_Font::open(const std::string& filename, unsigned int size)
         lineSpace -= widths_[ch];
 
         maxAscent = std::max(face->glyph->bitmap_top, maxAscent);
-        maxDescent = std::max(face->glyph->bitmap.rows -
-                                face->glyph->bitmap_top, maxDescent);
+        maxDescent = std::max((int)face->glyph->bitmap.rows -
+                                (int)face->glyph->bitmap_top, maxDescent);
     }
 
     height_ = maxAscent + maxDescent;   // calculate height_ for text

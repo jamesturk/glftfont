@@ -1,6 +1,6 @@
 UNAME := $(shell uname)
 
-ifeq ($(UNAME), Darwix)
+ifeq ($(UNAME), Darwin)
 	GL := -framework OpenGL
 else
 	GL := -lGL -lXrandr
