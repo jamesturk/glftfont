@@ -39,7 +39,11 @@
 #ifndef GLFT_FONT_HPP
 #define GLFT_FONT_HPP
 
+#ifdef __APPLE__
+#include <OpenGL/gl.h>
+#else
 #include <GL/gl.h>
+#endif
 
 #include <ft2build.h>
 #include FT_FREETYPE_H
